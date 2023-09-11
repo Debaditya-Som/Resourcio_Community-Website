@@ -14,7 +14,6 @@
 
 .footer-brand {
     display: flex;
-    /* justify-content: space-between; */
 }
 
 .footer-brand-text {
@@ -29,7 +28,6 @@
 .footer-brand .wrapper {
     display: flex;
     align-items: center;
-    /* gap: 5px; */
 }
 
 .footer-brand .wrapper:last-child {
@@ -81,20 +79,20 @@
 }
 
 .social-list li:nth-child(5) .social-link:hover {
-    color: #ffffff;
-    opacity: 0.7;
+    color: #666667;
 }
 
 .social-list li:nth-child(6) .social-link:hover {
-    color: #7983F5;
+    color: #7289d9;
 }
 
 .footer-bottom {
-    border-block-start: 1px solid var(--eerie-black-1);
+    margin-block-start: 15px;
     padding-block: 30px;
 }
 
 .copyright {
+    font-size: var(--fs-7);
     cursor: default;
     text-align: center;
 }
