@@ -1,11 +1,11 @@
 import './loadingScreen.css'
-import logo_new from '../../Images/RC.png'
+import logo from '../../Images/RC.png'
 
 const LoadingScreen = () => {
     return (
         <>
             <div className='loading_screen'></div>
-            <img src={logo_new} className='loading_image' alt="logo"/>
+            <img src={logo} className='loading_image' alt="logo"/>
         </>
     )
 }
